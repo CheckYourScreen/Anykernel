@@ -313,8 +313,8 @@ chmod -R 755 $ramdisk/sbin/arsenic-post_boot.sh
 # replace_string default.prop "ro.secure=0" "ro.secure=1" "ro.secure=0";
 
 # init.onyx.rc
-backup_file init.onyx.rc;
-append_file init.onyx.rc "arsenic-post_boot" init.onyx.patch;
+# backup_file init.onyx.rc;
+# append_file init.onyx.rc "arsenic-post_boot" init.onyx.patch;
 
 
 ############### Ramdisk customization end ###############
